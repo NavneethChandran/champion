@@ -1,3 +1,10 @@
+
+
+//CCCCCHHHHHAAAAMMMMPPPPPIIIIIIOOOOONNNNNNN
+//  C    H    A  M   P    I     O     N
+
+
+
 //program:Linear search
 //S3 CS Roll no:29
 
@@ -22,8 +29,7 @@ int linearsearch(int a[],int n,int key)
 	{
 	 if(a[i]==key)
 	 
-		return(i+1);
-	}
+		
 	 else
 		return(0);
 	 
@@ -35,7 +41,7 @@ void main()
 	printf("Enter the no. of elements:");
 	scanf("%d",&n);
 	printf("\n Enter the%d elements:",n);
-	readnum(a,n);
+	\\readnum(a,n);
 	printf(" \n Enter the key :");
 	scanf("%d",&k);
 	position=linearsearch(a,n,k);
